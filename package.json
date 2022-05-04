@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/coquin04/MissionNodeJS-CodeChallenge/issues"
   },
-  "homepage": "https://github.com/coquin04/MissionNodeJS-CodeChallenge#readme"
+  "homepage": "https://github.com/coquin04/MissionNodeJS-CodeChallenge#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
 }
