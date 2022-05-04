@@ -18,13 +18,13 @@ describe("Unit Test for StudentService class", () => {
       "fake.email2",
     ]);
   });
-  test("Test for method GetStudentsWithCreditsOver500", () => {
+  test("Test for method GetStudentsWithCreditsOverX", () => {
     const students = [
       { haveCertification: true, email: "fake.email1", credits: 600 },
       { haveCertification: true, email: "fake.email2", credits: 700 },
     ];
     const studentsWithCreditsOver500 =
-      StudentsService.getStudentsWithCreditsOver500(students, 500);
+      StudentsService.getStudentsWithCreditsOverX(students, 500);
     expect(studentsWithCreditsOver500).toStrictEqual(students);
   });
 });
