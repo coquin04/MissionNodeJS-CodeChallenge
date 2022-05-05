@@ -8,6 +8,7 @@
     "test": "test"
   },
   "scripts": {
+    "server": "node ./lib/server.js",
     "start": "node index.js",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/coquin04/MissionNodeJS-CodeChallenge#readme",
   "devDependencies": {
     "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
